@@ -195,6 +195,7 @@ header nav .nav-links ul .nav-link a::after {
 }
 header nav .btns {
   display: flex;
+  align-items: center;
   height: 100%;
 }
 header nav .btns .social {
@@ -229,12 +230,32 @@ header nav .btns .social li a:hover i {
   color: #b16c51;
 }
 header nav .btns .toogler {
+  width: 35px;
+  padding: 0;
+  margin-right: 8px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #494c52;
+  transition: all 0.4s ease-in-out;
   display: none;
-  width: 45px;
+}
+header nav .btns .toogler i {
+  font-size: 14px;
+  color: #494c52;
+  transition: all 0.4s ease-in-out;
+}
+header nav .btns .toogler:hover {
+  border-color: #b16c51;
+}
+header nav .btns .toogler:hover i {
+  color: #b16c51;
 }
 @media (max-width: 768px) {
   header nav .btns .toogler {
-    display: block;
+    display: flex;
   }
 }
 
