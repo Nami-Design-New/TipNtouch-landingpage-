@@ -124,6 +124,9 @@ header {
     background-color: $white;
     box-shadow: $shadow;
     animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
+    nav .nav-links ul .nav-link a{
+      color: $dark !important;
+    }
   }
   &.fff {
     background: #fff;
@@ -159,6 +162,9 @@ header {
           justify-content: center;
           .nav-link {
             height: 70px !important;
+            a{
+              color: $dark !important;
+            }
           }
         }
       }
@@ -170,7 +176,7 @@ header {
           padding: 0 16px;
           @include centerFlex();
           a {
-            color: $dark;
+            color: #f3e7d7;
             font-size: 14px;
             font-weight: 600;
             transition: $transition;
@@ -300,7 +306,7 @@ main {
         }
         p {
           font-size: 16px;
-          color: $gray;
+          color: #e9d4d4;
           @media (max-width: 576px) {
             font-size: 14px;
           }

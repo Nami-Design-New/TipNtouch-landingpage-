@@ -107,6 +107,9 @@ header.sticky {
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   animation: 0.5s ease-in-out 0s normal none 1 running fadeInDown;
 }
+header.sticky nav .nav-links ul .nav-link a {
+  color: #494c52 !important;
+}
 header.fff {
   background: #fff;
 }
@@ -151,6 +154,9 @@ header nav .nav-links {
   header nav .nav-links ul .nav-link {
     height: 70px !important;
   }
+  header nav .nav-links ul .nav-link a {
+    color: #494c52 !important;
+  }
 }
 header nav .nav-links ul {
   display: flex;
@@ -164,7 +170,7 @@ header nav .nav-links ul .nav-link {
   justify-content: center;
 }
 header nav .nav-links ul .nav-link a {
-  color: #494c52;
+  color: #f3e7d7;
   font-size: 14px;
   font-weight: 600;
   transition: all 0.4s ease-in-out;
@@ -307,7 +313,7 @@ main .hero-section .container .content h1 img {
 }
 main .hero-section .container .content p {
   font-size: 16px;
-  color: #777777;
+  color: #e9d4d4;
 }
 @media (max-width: 576px) {
   main .hero-section .container .content p {
